@@ -99,3 +99,9 @@ setInterval(purgeAndUpdate, 10_000) // check every 10 seconds
 applyLines(getStoredLines())
 stored = getStoredLines()
 editor.focus()
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(
+    import.meta.env.BASE_URL + 'sw.js'
+  )
+}

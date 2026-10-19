@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#6c63ff"/>
+  <g transform="translate(256,256)">
+    <!-- Pencil body -->
+    <rect x="-24" y="-140" width="48" height="200" rx="6" fill="#fff" transform="rotate(-45)"/>
+    <!-- Pencil tip -->
+    <polygon points="-24,60 24,60 0,100" fill="#fff" transform="rotate(-45)"/>
+    <!-- Eraser band -->
+    <rect x="-24" y="-140" width="48" height="24" rx="4" fill="#fff" opacity="0.6" transform="rotate(-45)"/>
+    <!-- Fade dots suggesting disappearance -->
+    <circle cx="80" cy="-80" r="8" fill="#fff" opacity="0.7"/>
+    <circle cx="110" cy="-60" r="6" fill="#fff" opacity="0.4"/>
+    <circle cx="130" cy="-35" r="4" fill="#fff" opacity="0.2"/>
+  </g>
+</svg>
